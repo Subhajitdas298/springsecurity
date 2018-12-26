@@ -1,7 +1,7 @@
 package com.sd.test.springsecurity.security.jwt.filter;
 
 import com.sd.test.springsecurity.security.jwt.util.JwtTokenUtil;
-import io.jsonwebtoken.ExpiredJwtException;
+import com.sd.test.springsecurity.security.jwt.exception.ExpiredJwtException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
