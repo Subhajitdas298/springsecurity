@@ -67,7 +67,7 @@ public class AuthenticationRestController {
 
     @ExceptionHandler({AuthenticationException.class})
     public JwtAuthenticationResponse handleAuthenticationException(AuthenticationException e) {
-        return new JwtAuthenticationResponse(HttpStatus.UNAUTHORIZED, e.getMessage(), null);
+        return new JwtAuthenticationResponse(HttpStatus.UNAUTHORIZED, "Error processing request", null);
     }
 
     /**

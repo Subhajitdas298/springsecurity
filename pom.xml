@@ -14,14 +14,6 @@
     <name>springsecurity</name>
     <description>Spring Security test project for Spring Boot</description>
 
-
-    <licenses>
-        <license>
-            <name>MIT license</name>
-            <url>https://raw.githubusercontent.com/szerhusenBC/jwt-spring-security-demo/master/LICENSE</url>
-        </license>
-    </licenses>
-
     <developers>
         <developer>
             <name>Subhajit Das</name>
